@@ -11,7 +11,7 @@ export class ProgsService {
   }
   
   getAllProgs() {
-    return this.http.get("../assets/json/progs.json");
+    return this.http.get("assets/json/progs.json");
   }
   
 }
